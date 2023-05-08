@@ -1,0 +1,26 @@
+﻿@page
+@model ProductModel
+
+<h1>Hello Products Page works</h1>
+
+<h1>@Model.MyString</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var element in Model.products)
+        {
+            <tr>
+                <td>@element.Name</td>
+                <td>@element.Description</td>
+                <td>@element.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
