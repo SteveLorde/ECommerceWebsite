@@ -1,6 +1,4 @@
-﻿
-
-namespace WebApplicationRazor.Models
+﻿namespace WebApplicationRazor.Models
 {
     public class Product
     {
