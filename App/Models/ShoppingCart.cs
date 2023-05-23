@@ -7,6 +7,6 @@ namespace WebApplicationRazor.Models
 {
     public class ShoppingCart
     {
-        public List<Item> Cart = new List<Item>();
+        public List<Product> Cart = new List<Product>();
     }
 }

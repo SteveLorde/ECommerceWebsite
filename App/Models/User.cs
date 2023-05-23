@@ -1,9 +1,9 @@
 ﻿namespace WebApplicationRazor.Models
 {
-    public static class User
+    public class User
     {
-        static int Id { get; set; }
-        static string? Name { get; set; }
-        static string password { get; set; }
+         int Id { get; set; }
+         string Name { get; set; }
+         string password { get; set; }
     }
 }

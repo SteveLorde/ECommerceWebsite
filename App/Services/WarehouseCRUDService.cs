@@ -6,7 +6,7 @@ namespace ECommerceWebsite.App.Services
     {
         public static void AddItem(string name, int price, string description)
         {
-            Item item = new Item(name, price, description);
+            Item item= new(name, price, description);
             //DATABASE ADD CODE
         }
     }

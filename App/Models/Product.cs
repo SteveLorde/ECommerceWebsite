@@ -2,9 +2,17 @@
 {
     public class Product
     {
-        public int Id { get; set; }
-        public string? Name { get; set; }
-        public decimal Price { get; set; }
-        public string? Description { get; set; }
+        int id { get; set; }
+        string name { get; set; }
+        string description { get; set; }
+        int price { get; set; }
+
+        public Product(string name, int price, string description)
+        {
+            this.name = name;
+            this.description = description;
+            this.price = price;
+        }
     }
+}
 }

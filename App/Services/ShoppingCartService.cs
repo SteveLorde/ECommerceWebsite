@@ -8,9 +8,9 @@ namespace WebApplicationRazor.Services
 {
     public static class ShoppingCartService
     {
-        private static ShoppingCart ShopCart;
+        static ShoppingCart ShopCart;
 
-        public static void AddtoCart(Item x) {
+        public static void AddtoCart(Product x) {
             ShopCart.Cart.Add(x);
         }
 
